@@ -4,29 +4,42 @@ html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 .container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
+    flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 /* Blue Sidebar */
 .sidebar {
     background-color: #2A63D6;
-    width: 80px;
+    width: 15vw;
+    max-width: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0;
+    overflow: hidden;
 }
 
-/* Images inside the sidebar */
 .sidebar-img {
     width: 40px;
     height: 40px;
-    margin: 20px 0;
+    margin: 10px 0;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -39,39 +52,50 @@ html {
 .main-content {
     flex: 1;
     background-color: #F9F9F9;
-    padding: 20px;
+    padding: 2vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* Allow full height for content */
 }
 
 h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    margin-bottom: 2vw;
 }
 
 #dynamic-content {
-    margin-top: 20px;
+    margin-top: 2vw;
+    flex-grow: 1;
+    /* Make dynamic content take available space */
 }
 
 /* Light grey rectangle */
 .light-grey-rectangle {
     background-color: rgba(211, 211, 211, 0.3);
-    /* Light grey with 30% opacity */
-    height: 600px;
-    width: 200px;
-    margin-top: 10px;
+    height: 60vh;
+    width: 20vw;
+    margin-top: 1vw;
+    overflow: hidden;
 }
 
 /* Table for Patient Details */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 2vw;
+    overflow-x: auto;
+    display: block;
+    /* Allow the table to scroll horizontally */
+    white-space: nowrap;
 }
 
 table,
 th,
 td {
     border: 1px solid #ccc;
-    padding: 8px;
+    padding: 1vw;
     text-align: left;
 }
 
@@ -82,12 +106,66 @@ th {
 select {
     margin-bottom: 10px;
     padding: 5px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 #map {
-    height: 600px;
+    height: 100%;
+    /* Full height for map */
     width: 100%;
     display: block;
-    /* Ensure the map is visible by default */
+    overflow: hidden;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Small Screens (Tablets, Phones) */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 20vw;
+        padding: 5px 0;
+    }
+
+    .main-content {
+        padding: 4vw;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    table,
+    th,
+    td {
+        padding: 2vw;
+    }
+
+    .light-grey-rectangle {
+        width: 40vw;
+    }
+}
+
+/* Very Small Screens (Mobile Portrait) */
+@media (max-width: 480px) {
+    .sidebar {
+        width: 25vw;
+    }
+
+    .sidebar-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    .light-grey-rectangle {
+        width: 60vw;
+        height: 40vh;
+    }
+
+    #map {
+        height: 50vh;
+    }
 }
