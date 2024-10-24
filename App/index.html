@@ -4,16 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map Sidebar
-        <!DOCTYPE html>
-        <html lang="en">
-
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Map Sidebar with Images</title>
-            <link rel="stylesheet" href="style.css">
-        </head>
+    <title>CareKonnect - Ambulance App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
     <div class="container">
@@ -22,14 +15,15 @@
             <img src="images/odometer.png" alt="Routes" class="sidebar-img" id="imgRoutes">
             <img src="images/ambulance.png" alt="Ambulances" class="sidebar-img" id="imgAmbulance">
             <img src="images/hospital.png" alt="Hospitals" class="sidebar-img" id="imgHospitals">
-            <img src="images/firstaid.png" alt="First Aid" class="sidebar-img">
-            <img src="images/patient.png" alt="Patients" class="sidebar-img">
-            <img src="images/settings.png" alt="Settings" class="sidebar-img">
+            <img src="images/firstaid.png" alt="First Aid" class="sidebar-img" id="imgFirstAid">
+            <img src="images/patient.png" alt="Patients" class="sidebar-img" id="imgPatients">
+            <img src="images/settings.png" alt="Settings" class="sidebar-img" id="imgSettings">
         </div>
 
         <!-- Main content area -->
         <div class="main-content">
             <h1>CareKonnect</h1>
+            <div id="map" style="height: 500px; width: 100%;"></div>
             <div id="dynamic-content">
                 <!-- Dynamic content will be injected here -->
             </div>
@@ -37,6 +31,8 @@
     </div>
 
     <script src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATxkaAgO0MkMT2EZb8pWikY8RKJbREM3U&callback=initMap"></script>
 </body>
 
 </html>

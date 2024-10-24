@@ -1,0 +1,10 @@
+Locality,Population,Age Distribution, Socioeconomic Status, Road Size, Proximity to Hospitals, Ambulance Score
+North Bangalore,1200000,Median Age 32,Upper Middle,Wide,Close,87
+South Bangalore,1500000,Median Age 29,Middle,Moderate,Moderate,82
+East Bangalore,1100000,Median Age 35,Middle,Wide,Far,75
+West Bangalore,1300000,Median Age 30,Upper Middle,Narrow,Close,90
+Central Bangalore,1800000,Median Age 28,High,Widest,Very Close,95
+South-East Bangalore,1400000,Median Age 31,Middle,Widest,Moderate,78
+South-West Bangalore,1000000,Median Age 34,Lower,Wide,Far,65
+North-East Bangalore,900000,Median Age 36,Middle,Narrow,Far,60
+North-West Bangalore,800000,Median Age 33,Upper Middle,Moderate,Moderate,72

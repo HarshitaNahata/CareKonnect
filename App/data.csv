@@ -1,0 +1,10 @@
+Area Name,Traffic Volume,Average Speed,Congestion Level,Incident Reports,Traffic Signal Compliance,Region,Population,Age Distribution,Socio-economic status,Road Size,Proximity to Hospitals
+Electronic City,16346.64,43.66,54.45,0.78,79.87,Southeast Bangalore,950000,39.48,7.38,22.39,7.11
+Hebbal,26533.23,40.15,80.09,1.57,79.9,North Bangalore,6608302,28.32,8.15,10.63,2.17
+Indiranagar,32284.39,38.64,87.64,1.78,80.05,East Bangalore,2101822,29.33,9.87,26.38,5.73
+Jayanagar,24601.33,39.79,77.0,1.48,80.22,South Bangalore,3038162,49.82,4.56,10.55,3.5
+M.G. Road,35300.43,37.54,90.58,1.86,79.94,Central Bangalore,872000,21.23,4.12,11.1,4.85
+Yeshwanthpur,18931.55,43.45,62.37,1.08,80.0,West Bangalore,9621551,45.71,7.9,14.63,6.24
+Gollahalli,9452.32,46.21,48.52,0.53,77.45,Southwest Bangalore,727000,48.45,5.21,11.01,4.63
+Kannur,12672.18,41.35,52.68,0.61,76.88,Northeast Bangalore,190581,36.9,9.4,12.23,2.98
+Malleswaram,31567.89,35.47,85.23,1.64,80.12,Northwest Bangalore,350000,37.42,3.48,29.48,5.33

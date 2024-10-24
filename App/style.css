@@ -59,3 +59,35 @@ h1 {
     width: 200px;
     margin-top: 10px;
 }
+
+/* Table for Patient Details */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+select {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    display: block;
+    /* Ensure the map is visible by default */
+}
