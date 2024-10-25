@@ -66,7 +66,7 @@ h1 {
 }
 
 #dynamic-content {
-    margin-top: 2vw;
+    margin-top: 0.2vw;
     flex-grow: 1;
     /* Make dynamic content take available space */
 }
@@ -84,7 +84,7 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 2vw;
+    margin-top: 0.25vw;
     overflow-x: auto;
     display: block;
     /* Allow the table to scroll horizontally */
@@ -168,4 +168,51 @@ select {
     #map {
         height: 50vh;
     }
+}
+
+/* General styles for all toggle buttons */
+.toggleButton {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin-left: 0px;
+    /* Adjusts spacing */
+}
+
+.toggleButton .traffic-toggle-text {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.toggleButton .traffic-toggle-switch {
+    width: 50px;
+    height: 24px;
+    background-color: #ccc;
+    border-radius: 12px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.toggleButton .traffic-toggle-knob {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: left 0.3s;
+}
+
+/* Active state for all toggle buttons */
+.toggleButton.active .traffic-toggle-switch {
+    background-color: #4CAF50;
+    /* Active state color */
+}
+
+.toggleButton.active .traffic-toggle-knob {
+    left: 28px;
+    /* Move knob to the right */
 }
