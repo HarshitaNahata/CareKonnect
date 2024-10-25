@@ -1,6 +1,1084 @@
 {
     "hospitals": [
-        { "name": "Hospital 1", "lat": 12.9234, "lng": 77.6234, "specialty": "Cardiology" },
-        { "name": "Hospital 2", "lat": 12.9346, "lng": 77.6126, "specialty": "Neurology" }
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "General"
+        },
+        {
+            "name": "North Bangalore Hospital",
+            "lat": 13.0267499,
+            "lng": 77.6394542,
+            "specialty": "General"
+        },
+        {
+            "name": "Ramaiah Memorial Hospital",
+            "lat": 13.0281563,
+            "lng": 77.5698782,
+            "specialty": "General"
+        },
+        {
+            "name": "Fortis Hospital, Bannerghatta Road",
+            "lat": 12.894822,
+            "lng": 77.5986197,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "The North Bangalore Hospital",
+            "lat": 13.1598754,
+            "lng": 77.6253976,
+            "specialty": "General"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar, Bangalore",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Suguna Hospital",
+            "lat": 12.988145,
+            "lng": 77.560033,
+            "specialty": "General"
+        },
+        {
+            "name": "Manipal Hospital Hebbal",
+            "lat": 13.0509374,
+            "lng": 77.5939248,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospitals Bannerghatta",
+            "lat": 12.8963273,
+            "lng": 77.5981892,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SPARSH Hospital, Infantry Road",
+            "lat": 12.9832825,
+            "lng": 77.59575,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospital Seshadripuram",
+            "lat": 12.9882344,
+            "lng": 77.5722942,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SRV Hospitals - Bengaluru",
+            "lat": 12.9492723,
+            "lng": 77.5977213,
+            "specialty": "General"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "The Bangalore Hospital",
+            "lat": 12.9377405,
+            "lng": 77.5804336,
+            "specialty": "General"
+        },
+        {
+            "name": "Bhagwan Mahaveer Jain Hospital",
+            "lat": 12.991625,
+            "lng": 77.5950349,
+            "specialty": "General"
+        },
+        {
+            "name": "Revive Hospitals - Indiranagar",
+            "lat": 12.9769327,
+            "lng": 77.6363126,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "LIFE CARE HOSPITAL- LCH®",
+            "lat": 12.9193552,
+            "lng": 77.6129992,
+            "specialty": "Emergency"
+        },
+        {
+            "name": "Manipal Hospital Varthur Road",
+            "lat": 12.9581606,
+            "lng": 77.7454033,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Trinity Central Hospital",
+            "lat": 12.9888708,
+            "lng": 77.5736171,
+            "specialty": "General"
+        },
+        {
+            "name": "Manipal Hospital Yeshwanthpur",
+            "lat": 13.0140851,
+            "lng": 77.5560449,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "South City Hospital",
+            "lat": 12.9497184,
+            "lng": 77.5802372,
+            "specialty": "General"
+        },
+        {
+            "name": "Manipal Hospitals Jayanagar",
+            "lat": 12.9171288,
+            "lng": 77.591795,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital, Bannerghatta Road",
+            "lat": 12.894822,
+            "lng": 77.5986197,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Kusuma Hospital",
+            "lat": 12.9419833,
+            "lng": 77.5508087,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Millers Road",
+            "lat": 12.9883379,
+            "lng": 77.5919754,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster RV Hospital",
+            "lat": 12.9108429,
+            "lng": 77.5851284,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospitals",
+            "lat": 12.9583911,
+            "lng": 77.6488364,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Varthur Road",
+            "lat": 12.9581606,
+            "lng": 77.7454033,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SRV Hospitals - Bengaluru",
+            "lat": 12.9492723,
+            "lng": 77.5977213,
+            "specialty": "General"
+        },
+        {
+            "name": "Aksha Hospital",
+            "lat": 12.9250479,
+            "lng": 77.5738654,
+            "specialty": "General"
+        },
+        {
+            "name": "NU Hospitals (South)",
+            "lat": 12.9180291,
+            "lng": 77.555891,
+            "specialty": "Nephrology"
+        },
+        {
+            "name": "Green City Hospital",
+            "lat": 12.9056409,
+            "lng": 77.5851874,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Divakars Speciality Hospital",
+            "lat": 12.9100276,
+            "lng": 77.5924611,
+            "specialty": "Maternity"
+        },
+        {
+            "name": "A.V. Hospital",
+            "lat": 12.9388708,
+            "lng": 77.5785902,
+            "specialty": "General"
+        },
+        {
+            "name": "Maiya Multi Speciality Hospital",
+            "lat": 12.9425794,
+            "lng": 77.5855859,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Ramakrishna Hospital",
+            "lat": 12.9364325,
+            "lng": 77.5832905,
+            "specialty": "Super Specialty"
+        },
+        {
+            "name": "SPARSH Hospital, Infantry Road",
+            "lat": 12.9832825,
+            "lng": 77.59475,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "Fortis Hospital, Bannerghatta Road",
+            "lat": 12.894822,
+            "lng": 77.5986197,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospitals Bannerghatta",
+            "lat": 12.8963273,
+            "lng": 77.5981892,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar, Bangalore",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Yeshwanthpur",
+            "lat": 13.0140851,
+            "lng": 77.5560449,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Richmond Road",
+            "lat": 12.9657136,
+            "lng": 77.6096103,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospital Seshadripuram",
+            "lat": 12.9882344,
+            "lng": 77.5722942,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Suguna Hospital",
+            "lat": 12.988145,
+            "lng": 77.560033,
+            "specialty": "General"
+        },
+        {
+            "name": "Manipal Hospital Varthur Road",
+            "lat": 12.9581606,
+            "lng": 77.7454033,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Kusuma Hospital",
+            "lat": 12.9419833,
+            "lng": 77.5508087,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "ReLife Hospital",
+            "lat": 12.9279001,
+            "lng": 77.5468044,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SPARSH Hospital, Infantry Road",
+            "lat": 12.9832825,
+            "lng": 77.59475,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "VSH Hospital",
+            "lat": 12.968064,
+            "lng": 77.5950677,
+            "specialty": "General"
+        },
+        {
+            "name": "Manipal Hospital Millers Road",
+            "lat": 12.9883379,
+            "lng": 77.5919754,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SRV Hospitals - Bengaluru",
+            "lat": 12.9492723,
+            "lng": 77.5977213,
+            "specialty": "General"
+        },
+        {
+            "name": "LIFE CARE HOSPITAL- LCH®",
+            "lat": 12.9193552,
+            "lng": 77.6129992,
+            "specialty": "Emergency"
+        },
+        {
+            "name": "Manipal Hospitals",
+            "lat": 12.9583911,
+            "lng": 77.6488364,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Sakra World Hospital",
+            "lat": 12.931903,
+            "lng": 77.6856351,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Yeshwanthpur",
+            "lat": 13.0140851,
+            "lng": 77.5560449,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "East Point Hospital",
+            "lat": 13.0536826,
+            "lng": 77.717201,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster RV Hospital",
+            "lat": 12.9108429,
+            "lng": 77.5851284,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "East Point Hospital And College Of Medical Sciences",
+            "lat": 13.0540656,
+            "lng": 77.7177509,
+            "specialty": "Medical College"
+        },
+        {
+            "name": "Fortis Hospital, Bannerghatta Road",
+            "lat": 12.894822,
+            "lng": 77.5986197,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "United Hospital",
+            "lat": 12.936428,
+            "lng": 77.5848145,
+            "specialty": "Surgical"
+        },
+        {
+            "name": "Apollo Hospitals Bannerghatta",
+            "lat": 12.8963273,
+            "lng": 77.5981892,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Varthur Road",
+            "lat": 12.9581606,
+            "lng": 77.7454033,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Medstar Speciality Hospital",
+            "lat": 13.0580706,
+            "lng": 77.5861955,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "Suguna Hospital",
+            "lat": 12.988145,
+            "lng": 77.560033,
+            "specialty": "General"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar, Bangalore",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Lakshya Hospital",
+            "lat": 12.8671469,
+            "lng": 77.620452,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Cloudnine Hospital - Bellandur",
+            "lat": 12.9244355,
+            "lng": 77.672439,
+            "specialty": "Maternity"
+        },
+        {
+            "name": "ASTRA SUPER SPECIALITY HOSPITAL",
+            "lat": 12.8908586,
+            "lng": 77.5633037,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "People Tree Hospitals",
+            "lat": 13.028795,
+            "lng": 77.5394651,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Eskay Healthcare",
+            "lat": 13.0614634,
+            "lng": 77.5180124,
+            "specialty": "General"
+        },
+        {
+            "name": "Sakra World Hospital",
+            "lat": 12.931903,
+            "lng": 77.6856351,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Ramaiah Memorial Hospital",
+            "lat": 13.0281563,
+            "lng": 77.5698782,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "The North Bangalore Hospital",
+            "lat": 13.1598754,
+            "lng": 77.6253976,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "North Bangalore Hospital",
+            "lat": 13.0267499,
+            "lng": 77.6394542,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar, Bangalore",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Sakra World Hospital",
+            "lat": 12.931903,
+            "lng": 77.6856351,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Belenus Champion Hospital Sarjapur Road",
+            "lat": 12.9012876,
+            "lng": 77.7087266,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Cratis Hospital",
+            "lat": 13.0484429,
+            "lng": 77.6456045,
+            "specialty": "General"
+        },
+        {
+            "name": "Kshema Hospital",
+            "lat": 12.8966894,
+            "lng": 77.7191945,
+            "specialty": "General"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "East Point Hospital",
+            "lat": 13.0536826,
+            "lng": 77.717201,
+            "specialty": "Medical College"
+        },
+        {
+            "name": "Apollo Hospitals Bannerghatta",
+            "lat": 12.8963273,
+            "lng": 77.5981892,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "People Tree Hospitals",
+            "lat": 13.028795,
+            "lng": 77.5394651,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Spectra Hospitals",
+            "lat": 12.9338741,
+            "lng": 77.620214,
+            "specialty": "Specialty"
+        },
+        {
+            "name": "Mazumdar Shaw Medical Center",
+            "lat": 12.8068015,
+            "lng": 77.6948007,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Motherhood Hospital, Sarjapur",
+            "lat": 12.9178603,
+            "lng": 77.6722892,
+            "specialty": "Maternity"
+        },
+        {
+            "name": "Trilife Hospital (Specialist Hospital)",
+            "lat": 13.0169312,
+            "lng": 77.6432499,
+            "specialty": "Specialty"
+        },
+        {
+            "name": "Narayana Hospital, HSR Layout",
+            "lat": 12.9081024,
+            "lng": 77.6435134,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Varthur Road",
+            "lat": 12.9581606,
+            "lng": 77.7454033,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Prakriya Hospitals",
+            "lat": 13.0460896,
+            "lng": 77.5065047,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "The North Bangalore Hospital",
+            "lat": 13.1598754,
+            "lng": 77.6253976,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital, Bannerghatta Road",
+            "lat": 12.894822,
+            "lng": 77.5986197,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "North Bangalore Hospital",
+            "lat": 13.0267499,
+            "lng": 77.6394542,
+            "specialty": "General"
+        },
+        {
+            "name": "Ramaiah Memorial Hospital",
+            "lat": 13.0281563,
+            "lng": 77.5698782,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar, Bangalore",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster RV Hospital",
+            "lat": 12.9108429,
+            "lng": 77.5851284,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Suguna Hospital",
+            "lat": 12.988145,
+            "lng": 77.560033,
+            "specialty": "General"
+        },
+        {
+            "name": "TrueLife Speciality Hospital",
+            "lat": 12.981114,
+            "lng": 77.5108456,
+            "specialty": "Specialty"
+        },
+        {
+            "name": "SPARSH Hospital, Infantry Road",
+            "lat": 12.9832825,
+            "lng": 77.59475,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "Apollo Hospitals Bannerghatta",
+            "lat": 12.8963273,
+            "lng": 77.5981892,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Richmond Road",
+            "lat": 12.9657136,
+            "lng": 77.6096103,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospital Seshadripuram",
+            "lat": 12.9882344,
+            "lng": 77.5722942,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "VSH Hospital",
+            "lat": 12.968064,
+            "lng": 77.5950677,
+            "specialty": "General"
+        },
+        {
+            "name": "Revive Hospitals",
+            "lat": 12.9769327,
+            "lng": 77.6363126,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Trustwell Hospitals Pvt. Ltd.",
+            "lat": 12.9606547,
+            "lng": 77.5840647,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Gleneagles BGS Hospital, Kengeri",
+            "lat": 12.902994,
+            "lng": 77.4974865,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Sakra World Hospital",
+            "lat": 12.931903,
+            "lng": 77.6856351,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Yeshwanthpur",
+            "lat": 13.0140851,
+            "lng": 77.5560449,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SPARSH Hospital Yeshwanthpur",
+            "lat": 13.0277135,
+            "lng": 77.5429315,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "Fortis Hospital Richmond Road",
+            "lat": 12.9657136,
+            "lng": 77.6096103,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SPARSH Hospital, Infantry Road",
+            "lat": 12.9832825,
+            "lng": 77.59475,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "South City Hospital",
+            "lat": 12.9497184,
+            "lng": 77.5802372,
+            "specialty": "General"
+        },
+        {
+            "name": "NU Hospitals (South)",
+            "lat": 12.9180291,
+            "lng": 77.555891,
+            "specialty": "Urology & Nephrology"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Ramakrishna Hospital",
+            "lat": 12.9364325,
+            "lng": 77.5832905,
+            "specialty": "Pediatrics & Nephrology"
+        },
+        {
+            "name": "Raksha Hospital",
+            "lat": 12.9156648,
+            "lng": 77.5416541,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Revive Hospitals",
+            "lat": 12.9769327,
+            "lng": 77.6363126,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Millers Road",
+            "lat": 12.9883379,
+            "lng": 77.5919754,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospitals",
+            "lat": 12.9583911,
+            "lng": 77.6488364,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "LIFE CARE HOSPITAL- LCH®",
+            "lat": 12.9193552,
+            "lng": 77.6129992,
+            "specialty": "Emergency Services"
+        },
+        {
+            "name": "People Tree Hospitals",
+            "lat": 13.028795,
+            "lng": 77.5394651,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Church of South India Hospital",
+            "lat": 12.9910548,
+            "lng": 77.6014781,
+            "specialty": "General"
+        },
+        {
+            "name": "East Point Hospital",
+            "lat": 13.0536826,
+            "lng": 77.717201,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospital Seshadripuram",
+            "lat": 12.9882344,
+            "lng": 77.5722942,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital, Bannerghatta Road",
+            "lat": 12.894822,
+            "lng": 77.5986197,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Yeshwanthpur",
+            "lat": 13.0140851,
+            "lng": 77.5560449,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospitals Bannerghatta",
+            "lat": 12.8963273,
+            "lng": 77.5981892,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "South City Hospital",
+            "lat": 12.9497184,
+            "lng": 77.5802372,
+            "specialty": "General"
+        },
+        {
+            "name": "Manipal Hospital Varthur Road",
+            "lat": 12.9581606,
+            "lng": 77.7454033,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Millers Road",
+            "lat": 12.9883379,
+            "lng": 77.5919754,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospitals",
+            "lat": 12.9583911,
+            "lng": 77.6488364,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Richmond Road",
+            "lat": 12.9657136,
+            "lng": 77.6096103,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Mazumdar Shaw Medical Center",
+            "lat": 12.8068015,
+            "lng": 77.6948007,
+            "specialty": "Cancer Care"
+        },
+        {
+            "name": "NU Hospitals (South)",
+            "lat": 12.9180291,
+            "lng": 77.555891,
+            "specialty": "Urology & Nephrology"
+        },
+        {
+            "name": "SPARSH Hospital, Infantry Road",
+            "lat": 12.9832825,
+            "lng": 77.59475,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "LIFE CARE HOSPITAL- LCH®",
+            "lat": 12.9193552,
+            "lng": 77.6129992,
+            "specialty": "Emergency Services"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SPARSH Hospital Yeshwanthpur",
+            "lat": 13.0277135,
+            "lng": 77.5429315,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "Shankar Super Specialty Hospital",
+            "lat": 12.8752786,
+            "lng": 77.5379153,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospital Seshadripuram",
+            "lat": 12.9882344,
+            "lng": 77.5722942,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Kangaroo Care - Women and Children Hospital",
+            "lat": 12.9742135,
+            "lng": 77.5422942,
+            "specialty": "Women & Children"
+        },
+        {
+            "name": "Trinity Central Hospital",
+            "lat": 12.9888708,
+            "lng": 77.5736171,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Yeshwanthpur",
+            "lat": 13.0140851,
+            "lng": 77.5560449,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Ramaiah Memorial Hospital",
+            "lat": 13.0281563,
+            "lng": 77.5698782,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospitals Jayanagar",
+            "lat": 12.9171288,
+            "lng": 77.591795,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital, Bannerghatta Road",
+            "lat": 12.894822,
+            "lng": 77.5986197,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Trinity Hospital and Heart Foundation, Bengaluru",
+            "lat": 12.9435495,
+            "lng": 77.5793006,
+            "specialty": "Cardiology"
+        },
+        {
+            "name": "Fortis Hospital Rajajinagar, Bangalore",
+            "lat": 13.0021399,
+            "lng": 77.5491058,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Fortis Hospital Cunningham Road",
+            "lat": 12.9882166,
+            "lng": 77.5943056,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Millers Road",
+            "lat": 12.9883379,
+            "lng": 77.5919754,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SPARSH Hospital, Infantry Road",
+            "lat": 12.9832825,
+            "lng": 77.59475,
+            "specialty": "Orthopedics"
+        },
+        {
+            "name": "Manipal Hospital Hebbal",
+            "lat": 13.0509374,
+            "lng": 77.5939248,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "The Bangalore Hospital",
+            "lat": 12.9377405,
+            "lng": 77.5804336,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Aster CMI Hospital",
+            "lat": 13.054497,
+            "lng": 77.5915659,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Whitefield",
+            "lat": 12.9880554,
+            "lng": 77.7287744,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "SRV Hospitals - Bengaluru",
+            "lat": 12.9492723,
+            "lng": 77.5977213,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Spectra Hospitals",
+            "lat": 12.9338741,
+            "lng": 77.620214,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Apollo Hospitals Bannerghatta",
+            "lat": 12.8963273,
+            "lng": 77.5981892,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "LIFE CARE HOSPITAL- LCH®",
+            "lat": 12.9193552,
+            "lng": 77.6129992,
+            "specialty": "Emergency Services"
+        },
+        {
+            "name": "Apollo Speciality Hospital Jayanagar",
+            "lat": 12.9365087,
+            "lng": 77.5843701,
+            "specialty": "Multispecialty"
+        },
+        {
+            "name": "Manipal Hospital Varthur Road",
+            "lat": 12.9581606,
+            "lng": 77.7454033,
+            "specialty": "Multispecialty"
+        }
     ]
 }
