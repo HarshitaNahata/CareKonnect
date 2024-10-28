@@ -1,3 +1,4 @@
+/* style.css */
 /* General Styling */
 body,
 html {
@@ -66,7 +67,7 @@ h1 {
 }
 
 #dynamic-content {
-    margin-top: 0.2vw;
+    margin-top: 2vw;
     flex-grow: 1;
     /* Make dynamic content take available space */
 }
@@ -84,7 +85,7 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 0.25vw;
+    margin-top: 2vw;
     overflow-x: auto;
     display: block;
     /* Allow the table to scroll horizontally */
@@ -101,6 +102,14 @@ td {
 
 th {
     background-color: #f2f2f2;
+}
+
+.sort-checkbox {
+    margin-left: 4px;
+}
+
+#container {
+    margin-bottom: 20px;
 }
 
 select {
