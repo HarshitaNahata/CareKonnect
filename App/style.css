@@ -1,218 +1,439 @@
-/* General Styling */
-body,
 html {
+
     margin: 0;
+
     padding: 0;
+
     font-family: Arial, sans-serif;
+
     box-sizing: border-box;
+
     height: 100%;
+
     width: 100%;
+
     overflow-x: hidden;
+
 }
+
+
 
 *,
+
 *::before,
+
 *::after {
+
     box-sizing: inherit;
+
 }
+
+
 
 .container {
+
     display: flex;
+
     min-height: 100vh;
+
     width: 100vw;
+
     flex-wrap: wrap;
+
     overflow-x: hidden;
+
 }
+
+
 
 /* Blue Sidebar */
+
 .sidebar {
+
     background-color: #2A63D6;
+
     width: 15vw;
+
     max-width: 100px;
+
     display: flex;
+
     flex-direction: column;
+
     align-items: center;
+
     padding: 10px 0;
+
     overflow: hidden;
+
 }
+
+
 
 .sidebar-img {
+
     width: 40px;
+
     height: 40px;
+
     margin: 10px 0;
+
     cursor: pointer;
+
     border-radius: 5px;
+
 }
+
+
 
 .sidebar-img:hover {
+
     opacity: 0.8;
+
 }
+
+
 
 /* Main Content Area */
+
 .main-content {
+
     flex: 1;
+
     background-color: #F9F9F9;
+
     padding: 2vw;
+
     overflow-x: hidden;
+
     display: flex;
+
     flex-direction: column;
+
     height: 100vh;
     /* Allow full height for content */
+
 }
+
+
 
 h1 {
+
     font-size: 2rem;
+
     margin-bottom: 2vw;
+
 }
+
+
 
 #dynamic-content {
-    margin-top: 0.2vw;
+
+    margin-top: 2vw;
+
     flex-grow: 1;
     /* Make dynamic content take available space */
+
 }
+
+
 
 /* Light grey rectangle */
+
 .light-grey-rectangle {
+
     background-color: rgba(211, 211, 211, 0.3);
+
     height: 60vh;
+
     width: 20vw;
+
     margin-top: 1vw;
+
     overflow: hidden;
+
 }
+
+
 
 /* Table for Patient Details */
+
 table {
+
     width: 100%;
+
     border-collapse: collapse;
-    margin-top: 0.25vw;
+
+    margin-top: 2vw;
+
     overflow-x: auto;
+
     display: block;
     /* Allow the table to scroll horizontally */
+
     white-space: nowrap;
+
 }
+
+
 
 table,
+
 th,
+
 td {
+
     border: 1px solid #ccc;
+
     padding: 1vw;
+
     text-align: left;
+
 }
+
+
 
 th {
+
     background-color: #f2f2f2;
+
 }
+
+.sort-checkbox {
+
+    margin-left: 4px;
+
+}
+
+#container {
+
+    margin-bottom: 20px;
+
+}
+
+
 
 select {
+
     margin-bottom: 10px;
+
     padding: 5px;
+
     font-size: 1rem;
+
 }
 
+
+
 #map {
+
     height: 100%;
     /* Full height for map */
+
     width: 100%;
+
     display: block;
+
     overflow: hidden;
+
 }
+
+
 
 /* Media Queries for Responsiveness */
 
+
+
 /* Small Screens (Tablets, Phones) */
+
 @media (max-width: 768px) {
+
     .sidebar {
+
         width: 20vw;
+
         padding: 5px 0;
+
     }
+
+
 
     .main-content {
+
         padding: 4vw;
+
     }
 
+
+
     h1 {
+
         font-size: 1.5rem;
+
     }
+
+
 
     table,
+
     th,
+
     td {
+
         padding: 2vw;
+
     }
 
+
+
     .light-grey-rectangle {
+
         width: 40vw;
+
     }
+
 }
+
+
 
 /* Very Small Screens (Mobile Portrait) */
+
 @media (max-width: 480px) {
+
     .sidebar {
+
         width: 25vw;
+
     }
+
+
 
     .sidebar-img {
+
         width: 30px;
+
         height: 30px;
+
     }
+
+
 
     h1 {
+
         font-size: 1.25rem;
+
     }
+
+
 
     .light-grey-rectangle {
+
         width: 60vw;
+
         height: 40vh;
+
     }
+
+
 
     #map {
+
         height: 50vh;
+
     }
+
 }
+
+
 
 /* General styles for all toggle buttons */
+
 .toggleButton {
+
     display: flex;
+
     align-items: center;
+
     cursor: pointer;
+
     font-family: Arial, sans-serif;
+
     color: #333;
+
     margin-left: 0px;
+
     /* Adjusts spacing */
+
 }
+
+
 
 .toggleButton .traffic-toggle-text {
+
     margin-right: 10px;
+
     font-size: 14px;
+
 }
+
+
 
 .toggleButton .traffic-toggle-switch {
+
     width: 50px;
+
     height: 24px;
+
     background-color: #ccc;
+
     border-radius: 12px;
+
     position: relative;
+
     transition: background-color 0.3s;
+
 }
+
+
 
 .toggleButton .traffic-toggle-knob {
+
     width: 20px;
+
     height: 20px;
+
     background-color: #fff;
+
     border-radius: 50%;
+
     position: absolute;
+
     top: 2px;
+
     left: 2px;
+
     transition: left 0.3s;
+
 }
+
+
 
 /* Active state for all toggle buttons */
+
 .toggleButton.active .traffic-toggle-switch {
+
     background-color: #4CAF50;
+
     /* Active state color */
+
 }
 
+
+
 .toggleButton.active .traffic-toggle-knob {
+
     left: 28px;
+
     /* Move knob to the right */
+
 }

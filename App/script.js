@@ -553,7 +553,7 @@ function removeMarkers() {
     allMarkers.length = 0; // Clear the global markers array
 }
 
-//Settings 
+// Settings
 function displaySettings() {
     const dynamicContent = document.getElementById('dynamic-content');
     dynamicContent.innerHTML = '<h2>Settings</h2>';
@@ -567,11 +567,14 @@ function displaySettings() {
     overrideButton.style.display = 'none'; // Hidden until CSV is loaded
     dynamicContent.appendChild(overrideButton);
 
+    // Store selected columns for sorting
+    const selectedColumns = new Set();
+
     // Load the CSV file from the root directory
-    fetch('data.csv')
+    fetch('syn_data.csv')
         .then(response => response.text())
         .then(csvData => {
-            const table = createTableFromCSV(csvData);
+            const table = createTableFromCSV(csvData, selectedColumns);
             tableDiv.innerHTML = ''; // Clear any previous table
             tableDiv.appendChild(table);
             overrideButton.style.display = 'block'; // Show the Override button
@@ -586,8 +589,8 @@ function displaySettings() {
     });
 }
 
-// Parse CSV data and create a table
-function createTableFromCSV(csvData) {
+// Parse CSV data and create a table with checkboxes for multi-column sorting
+function createTableFromCSV(csvData, selectedColumns) {
     const rows = csvData.split('\n').map(row => row.split(','));
     const table = document.createElement('table');
     table.border = '1';
@@ -595,53 +598,85 @@ function createTableFromCSV(csvData) {
     const thead = document.createElement('thead');
     const tbody = document.createElement('tbody');
 
-    // Create table header and add sorting functionality
+    // Create table header with checkboxes for sorting
     const headerRow = document.createElement('tr');
     rows[0].forEach((header, index) => {
         const th = document.createElement('th');
         th.innerText = header;
-        th.style.cursor = 'pointer';
-        th.addEventListener('click', function () {
-            sortTable(table, index);
-        });
+
+        // Create a checkbox for multi-column sorting
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.classList.add('sort-checkbox');
+        checkbox.addEventListener('change', (e) => toggleSortColumn(e, index, selectedColumns, table));
+        th.appendChild(checkbox);
+
         headerRow.appendChild(th);
     });
     thead.appendChild(headerRow);
     table.appendChild(thead);
 
     // Create table body
-    for (let i = 1; i < rows.length; i++) {
+    rows.slice(1).forEach(rowData => {
         const row = document.createElement('tr');
-        rows[i].forEach(cell => {
+        rowData.forEach(cell => {
             const td = document.createElement('td');
             td.innerText = cell;
             row.appendChild(td);
         });
         tbody.appendChild(row);
-    }
+    });
     table.appendChild(tbody);
 
     return table;
 }
 
-// Sort table by column
-function sortTable(table, columnIndex) {
-    const rowsArray = Array.from(table.rows).slice(1); // Skip header row
-    const sortedRows = rowsArray.sort((a, b) => {
-        const aText = a.cells[columnIndex].innerText.trim();
-        const bText = b.cells[columnIndex].innerText.trim();
+// Toggle selected columns for sorting based on checkbox
+function toggleSortColumn(event, columnIndex, selectedColumns, table) {
+    if (event.target.checked) {
+        selectedColumns.add(columnIndex);
+    } else {
+        selectedColumns.delete(columnIndex);
+    }
+    sortTable(table, selectedColumns);
+}
 
-        if (!isNaN(aText) && !isNaN(bText)) {
-            return Number(aText) - Number(bText);
-        }
-        return aText.localeCompare(bText);
+function sortTable(table, selectedColumns) {
+    const rowsArray = Array.from(table.rows).slice(1); // Exclude header row
+
+    Array.from(selectedColumns).forEach(columnIndex => {
+        rowsArray.sort((a, b) => {
+            const aCell = a.cells[columnIndex];
+            const bCell = b.cells[columnIndex];
+            const aText = aCell ? aCell.innerText.trim() : '';
+            const bText = bCell ? bCell.innerText.trim() : '';
+
+            // Custom sort order for "Road Size" column (replace with the actual column index)
+            if (columnIndex === 5) { // Assuming "Road Size" is column index 5
+                const customOrder = { "Narrow": 1, "Medium": 2, "Wide": 3 };
+                return (customOrder[aText] || 0) - (customOrder[bText] || 0);
+            }
+
+            // Descending sort for "Population" column (replace with the actual column index)
+            if (columnIndex === 2) { // Assuming "Population" is column index 2
+                return isNaN(aText - bText)
+                    ? bText.localeCompare(aText)
+                    : bText - aText;
+            }
+
+            // Default sort (ascending)
+            return isNaN(aText - bText)
+                ? aText.localeCompare(bText)
+                : aText - bText;
+        });
     });
 
-    // Append sorted rows back into the table
+    // Reattach sorted rows to the table
     const tbody = table.querySelector('tbody');
     tbody.innerHTML = ''; // Clear existing rows
-    sortedRows.forEach(row => tbody.appendChild(row));
+    rowsArray.forEach(row => tbody.appendChild(row));
 }
+
 
 // Convert table back to CSV format
 function tableToCSV(table) {
