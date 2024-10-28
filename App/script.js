@@ -386,9 +386,18 @@ function displayFirstAid() {
     option1.text = 'Ambulance 1';
     const option2 = document.createElement('option');
     option2.text = 'Ambulance 2';
+    const option3 = document.createElement('option');
+    option1.text = 'Ambulance 3';
+    const option4 = document.createElement('option');
+    option2.text = 'Ambulance 4';
+    const option5 = document.createElement('option');
+    option1.text = 'Ambulance 5';
 
     select.add(option1);
     select.add(option2);
+    select.add(option3);
+    select.add(option4);
+    select.add(option5);
     dynamicContent.appendChild(select);
 
     const detailsDiv = document.createElement('div');
@@ -413,9 +422,21 @@ function displayPatientDetails() {
     option1.text = 'Ambulance 1';
     const option2 = document.createElement('option');
     option2.text = 'Ambulance 2';
+    const option3=document.createElement('option');
+    option3.text='Ambulance 3';
+    select.appendChild(option3);
+    const option4=document.createElement('option');
+    option4.text='Ambulance 4';
+    select.appendChild(option4);
+    const option5=document.createElement('option');
+    option5.text='Ambulance 5';
+    select.appendChild(option5);
 
     select.add(option1);
     select.add(option2);
+    select.add(option3);
+    select.add(option4);
+    select.add(option5);
     dynamicContent.appendChild(select);
 
     const table = document.createElement('table');
