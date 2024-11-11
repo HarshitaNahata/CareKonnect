@@ -571,7 +571,7 @@ function displaySettings() {
     const selectedColumns = new Set();
 
     // Load the CSV file from the root directory
-    fetch('syn_data.csv')
+    fetch('syn_data1.csv')
         .then(response => response.text())
         .then(csvData => {
             const table = createTableFromCSV(csvData, selectedColumns);

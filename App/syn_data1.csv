@@ -1,0 +1,181 @@
+name,lat,lng,specialty,patient_wait_time,ambulance_eta,distance_to_hospital,patient_condition_severity
+Aster CMI Hospital,13.054497,77.5915659,General,28,7,6.0,Medium
+North Bangalore Hospital,13.0267499,77.6394542,General,27,11,8.9,Low
+Ramaiah Memorial Hospital,13.0281563,77.5698782,General,13,13,8.4,High
+"Fortis Hospital, Bannerghatta Road",12.894822,77.5986197,Multispecialty,12,4,5.0,Low
+The North Bangalore Hospital,13.1598754,77.6253976,General,30,8,0.8,Low
+"Fortis Hospital Rajajinagar, Bangalore",13.0021399,77.5491058,Multispecialty,8,14,4.6,Medium
+Suguna Hospital,12.988145,77.560033,General,14,14,4.7,Low
+Manipal Hospital Hebbal,13.0509374,77.5939248,Multispecialty,17,6,7.3,Low
+Apollo Hospitals Bannerghatta,12.8963273,77.5981892,Multispecialty,8,14,6.0,Low
+"SPARSH Hospital, Infantry Road",12.9832825,77.59575,Orthopedics,16,5,6.0,Medium
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,13,13,6.2,Medium
+Apollo Hospital Seshadripuram,12.9882344,77.5722942,Multispecialty,17,15,5.4,Medium
+SRV Hospitals - Bengaluru,12.9492723,77.5977213,General,30,11,5.5,Low
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,24,10,8.1,Low
+The Bangalore Hospital,12.9377405,77.5804336,General,10,5,5.7,Low
+Bhagwan Mahaveer Jain Hospital,12.991625,77.5950349,General,18,4,4.4,Low
+Revive Hospitals - Indiranagar,12.9769327,77.6363126,Multispecialty,14,5,2.2,Medium
+LIFE CARE HOSPITAL- LCH®,12.9193552,77.6129992,Emergency,18,12,2.6,Low
+Manipal Hospital Varthur Road,12.9581606,77.7454033,Multispecialty,5,12,9.6,High
+Trinity Central Hospital,12.9888708,77.5736171,General,7,9,6.8,High
+Manipal Hospital Yeshwanthpur,13.0140851,77.5560449,Multispecialty,29,4,6.3,Medium
+South City Hospital,12.9497184,77.5802372,General,13,10,1.2,High
+Manipal Hospitals Jayanagar,12.9171288,77.591795,Multispecialty,27,5,7.9,Low
+"Fortis Hospital, Bannerghatta Road",12.894822,77.5986197,Multispecialty,13,12,9.1,Medium
+Kusuma Hospital,12.9419833,77.5508087,Multispecialty,19,3,6.9,High
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,23,14,1.2,Low
+Manipal Hospital Millers Road,12.9883379,77.5919754,Multispecialty,5,14,7.6,Medium
+Aster RV Hospital,12.9108429,77.5851284,Multispecialty,18,14,4.0,Medium
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,6,8,2.3,High
+Manipal Hospitals,12.9583911,77.6488364,Multispecialty,25,14,6.5,Medium
+Manipal Hospital Varthur Road,12.9581606,77.7454033,Multispecialty,26,5,3.6,Medium
+SRV Hospitals - Bengaluru,12.9492723,77.5977213,General,23,15,1.7,High
+Aksha Hospital,12.9250479,77.5738654,General,7,14,1.2,Medium
+NU Hospitals (South),12.9180291,77.555891,Nephrology,6,15,6.1,Medium
+Green City Hospital,12.9056409,77.5851874,Multispecialty,10,3,6.8,Medium
+Divakars Speciality Hospital,12.9100276,77.5924611,Maternity,30,8,5.1,Low
+A.V. Hospital,12.9388708,77.5785902,General,12,14,7.8,Low
+Maiya Multi Speciality Hospital,12.9425794,77.5855859,Multispecialty,7,8,4.1,Low
+Ramakrishna Hospital,12.9364325,77.5832905,Super Specialty,28,11,7.0,Medium
+"SPARSH Hospital, Infantry Road",12.9832825,77.59475,Orthopedics,7,6,1.3,Medium
+"Fortis Hospital, Bannerghatta Road",12.894822,77.5986197,Multispecialty,24,13,6.6,Low
+Apollo Hospitals Bannerghatta,12.8963273,77.5981892,Multispecialty,14,3,9.5,High
+"Fortis Hospital Rajajinagar, Bangalore",13.0021399,77.5491058,Multispecialty,6,13,3.6,Medium
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,13,13,4.9,Medium
+Manipal Hospital Yeshwanthpur,13.0140851,77.5560449,Multispecialty,21,12,6.6,Low
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,17,12,9.8,Low
+Fortis Hospital Richmond Road,12.9657136,77.6096103,Multispecialty,9,4,1.2,Medium
+Apollo Hospital Seshadripuram,12.9882344,77.5722942,Multispecialty,28,13,3.2,Low
+Suguna Hospital,12.988145,77.560033,General,20,11,4.9,Medium
+Manipal Hospital Varthur Road,12.9581606,77.7454033,Multispecialty,21,12,4.9,High
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,16,5,3.0,Low
+Kusuma Hospital,12.9419833,77.5508087,Multispecialty,28,6,4.3,High
+ReLife Hospital,12.9279001,77.5468044,Multispecialty,25,14,2.9,Medium
+"SPARSH Hospital, Infantry Road",12.9832825,77.59475,Orthopedics,18,15,5.6,Low
+VSH Hospital,12.968064,77.5950677,General,28,6,9.8,Low
+Manipal Hospital Millers Road,12.9883379,77.5919754,Multispecialty,20,5,0.7,High
+SRV Hospitals - Bengaluru,12.9492723,77.5977213,General,22,12,8.4,Medium
+LIFE CARE HOSPITAL- LCH®,12.9193552,77.6129992,Emergency,17,13,8.7,Low
+Manipal Hospitals,12.9583911,77.6488364,Multispecialty,23,9,6.4,Low
+Sakra World Hospital,12.931903,77.6856351,Multispecialty,19,4,2.5,Low
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,20,15,1.9,High
+Manipal Hospital Yeshwanthpur,13.0140851,77.5560449,Multispecialty,26,12,9.6,High
+East Point Hospital,13.0536826,77.717201,Multispecialty,11,4,1.9,Medium
+Aster RV Hospital,12.9108429,77.5851284,Multispecialty,27,9,7.1,Low
+East Point Hospital And College Of Medical Sciences,13.0540656,77.7177509,Medical College,10,7,2.5,Low
+"Fortis Hospital, Bannerghatta Road",12.894822,77.5986197,Multispecialty,30,14,7.9,Medium
+United Hospital,12.936428,77.5848145,Surgical,15,11,6.9,Low
+Apollo Hospitals Bannerghatta,12.8963273,77.5981892,Multispecialty,6,3,6.4,High
+Manipal Hospital Varthur Road,12.9581606,77.7454033,Multispecialty,16,11,9.0,Low
+Medstar Speciality Hospital,13.0580706,77.5861955,Orthopedics,16,11,5.2,Low
+Suguna Hospital,12.988145,77.560033,General,21,11,3.3,Medium
+"Fortis Hospital Rajajinagar, Bangalore",13.0021399,77.5491058,Multispecialty,7,10,7.1,Low
+Lakshya Hospital,12.8671469,77.620452,Multispecialty,6,9,2.4,Low
+Cloudnine Hospital - Bellandur,12.9244355,77.672439,Maternity,8,5,5.5,Medium
+ASTRA SUPER SPECIALITY HOSPITAL,12.8908586,77.5633037,Multispecialty,5,15,9.6,Medium
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,23,7,7.6,Low
+People Tree Hospitals,13.028795,77.5394651,Multispecialty,17,6,4.6,Medium
+Eskay Healthcare,13.0614634,77.5180124,General,14,4,5.6,Low
+Sakra World Hospital,12.931903,77.6856351,Multispecialty,28,3,8.4,High
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,26,14,6.5,High
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,18,11,3.7,Low
+Ramaiah Memorial Hospital,13.0281563,77.5698782,Multispecialty,15,3,3.6,Low
+The North Bangalore Hospital,13.1598754,77.6253976,Multispecialty,11,7,7.4,High
+North Bangalore Hospital,13.0267499,77.6394542,Multispecialty,28,6,5.2,High
+"Fortis Hospital Rajajinagar, Bangalore",13.0021399,77.5491058,Multispecialty,10,7,4.2,Medium
+Sakra World Hospital,12.931903,77.6856351,Multispecialty,29,10,7.0,Medium
+Belenus Champion Hospital Sarjapur Road,12.9012876,77.7087266,Multispecialty,20,5,8.5,Low
+Cratis Hospital,13.0484429,77.6456045,General,26,9,8.3,High
+Kshema Hospital,12.8966894,77.7191945,General,26,7,9.8,High
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,26,10,8.1,Low
+East Point Hospital,13.0536826,77.717201,Medical College,28,5,9.9,High
+Apollo Hospitals Bannerghatta,12.8963273,77.5981892,Multispecialty,14,7,9.4,Medium
+People Tree Hospitals,13.028795,77.5394651,Multispecialty,10,4,1.7,Medium
+Apollo Spectra Hospitals,12.9338741,77.620214,Specialty,25,6,9.6,Low
+Mazumdar Shaw Medical Center,12.8068015,77.6948007,Multispecialty,12,14,8.7,High
+"Motherhood Hospital, Sarjapur",12.9178603,77.6722892,Maternity,14,14,4.1,High
+Trilife Hospital (Specialist Hospital),13.0169312,77.6432499,Specialty,13,6,8.4,High
+"Narayana Hospital, HSR Layout",12.9081024,77.6435134,Multispecialty,9,11,1.5,High
+Manipal Hospital Varthur Road,12.9581606,77.7454033,Multispecialty,18,4,7.0,Low
+Prakriya Hospitals,13.0460896,77.5065047,Multispecialty,17,5,8.0,Low
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,30,12,9.7,Low
+The North Bangalore Hospital,13.1598754,77.6253976,Multispecialty,9,15,5.9,Medium
+"Fortis Hospital, Bannerghatta Road",12.894822,77.5986197,Multispecialty,5,15,1.6,High
+North Bangalore Hospital,13.0267499,77.6394542,General,24,12,1.9,Medium
+Ramaiah Memorial Hospital,13.0281563,77.5698782,Multispecialty,15,4,8.1,High
+"Fortis Hospital Rajajinagar, Bangalore",13.0021399,77.5491058,Multispecialty,13,15,2.2,Low
+Aster RV Hospital,12.9108429,77.5851284,Multispecialty,24,15,1.4,Low
+Suguna Hospital,12.988145,77.560033,General,15,7,8.3,High
+TrueLife Speciality Hospital,12.981114,77.5108456,Specialty,21,4,5.8,High
+"SPARSH Hospital, Infantry Road",12.9832825,77.59475,Orthopedics,6,10,9.8,Medium
+Apollo Hospitals Bannerghatta,12.8963273,77.5981892,Multispecialty,6,5,9.5,High
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,10,5,8.5,Low
+Fortis Hospital Richmond Road,12.9657136,77.6096103,Multispecialty,29,14,4.3,Low
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,24,12,8.9,Low
+Apollo Hospital Seshadripuram,12.9882344,77.5722942,Multispecialty,17,11,8.3,Low
+VSH Hospital,12.968064,77.5950677,General,5,6,6.0,High
+Revive Hospitals,12.9769327,77.6363126,Multispecialty,5,14,3.6,High
+Trustwell Hospitals Pvt. Ltd.,12.9606547,77.5840647,Multispecialty,28,6,5.9,High
+"Gleneagles BGS Hospital, Kengeri",12.902994,77.4974865,Multispecialty,14,11,4.9,High
+Sakra World Hospital,12.931903,77.6856351,Multispecialty,27,5,10.0,High
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,14,7,5.9,Low
+Manipal Hospital Yeshwanthpur,13.0140851,77.5560449,Multispecialty,21,14,5.7,High
+SPARSH Hospital Yeshwanthpur,13.0277135,77.5429315,Orthopedics,15,9,3.1,Low
+Fortis Hospital Richmond Road,12.9657136,77.6096103,Multispecialty,9,3,6.6,Medium
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,26,4,3.8,Low
+"SPARSH Hospital, Infantry Road",12.9832825,77.59475,Orthopedics,27,11,8.6,Low
+South City Hospital,12.9497184,77.5802372,General,29,10,1.3,Medium
+NU Hospitals (South),12.9180291,77.555891,Urology & Nephrology,24,9,7.7,High
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,21,7,9.4,High
+Ramakrishna Hospital,12.9364325,77.5832905,Pediatrics & Nephrology,9,8,8.5,Low
+Raksha Hospital,12.9156648,77.5416541,Multispecialty,5,10,8.8,Low
+Revive Hospitals,12.9769327,77.6363126,Multispecialty,18,12,9.8,Medium
+Manipal Hospital Millers Road,12.9883379,77.5919754,Multispecialty,17,10,8.2,Medium
+Manipal Hospitals,12.9583911,77.6488364,Multispecialty,28,12,5.8,Low
+LIFE CARE HOSPITAL- LCH®,12.9193552,77.6129992,Emergency Services,30,3,7.3,Low
+People Tree Hospitals,13.028795,77.5394651,Multispecialty,24,6,8.4,Medium
+Fortis Hospital Rajajinagar,13.0021399,77.5491058,Multispecialty,20,13,9.8,Medium
+Church of South India Hospital,12.9910548,77.6014781,General,24,4,7.6,High
+East Point Hospital,13.0536826,77.717201,Multispecialty,23,12,2.0,Medium
+Apollo Hospital Seshadripuram,12.9882344,77.5722942,Multispecialty,25,14,2.5,High
+"Fortis Hospital, Bannerghatta Road",12.894822,77.5986197,Multispecialty,15,12,3.6,Low
+Manipal Hospital Yeshwanthpur,13.0140851,77.5560449,Multispecialty,23,5,1.6,Low
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,29,8,5.5,Medium
+Apollo Hospitals Bannerghatta,12.8963273,77.5981892,Multispecialty,11,7,4.9,Medium
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,21,6,7.1,Medium
+South City Hospital,12.9497184,77.5802372,General,30,5,2.7,Low
+Manipal Hospital Varthur Road,12.9581606,77.7454033,Multispecialty,8,8,1.5,Low
+Manipal Hospital Millers Road,12.9883379,77.5919754,Multispecialty,23,13,8.1,Medium
+Manipal Hospitals,12.9583911,77.6488364,Multispecialty,21,14,8.9,High
+Fortis Hospital Richmond Road,12.9657136,77.6096103,Multispecialty,29,7,3.7,Low
+Mazumdar Shaw Medical Center,12.8068015,77.6948007,Cancer Care,24,11,9.1,Low
+NU Hospitals (South),12.9180291,77.555891,Urology & Nephrology,5,13,8.8,Low
+"SPARSH Hospital, Infantry Road",12.9832825,77.59475,Orthopedics,6,8,6.5,Medium
+LIFE CARE HOSPITAL- LCH®,12.9193552,77.6129992,Emergency Services,21,7,4.2,Medium
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,10,11,7.7,Medium
+SPARSH Hospital Yeshwanthpur,13.0277135,77.5429315,Orthopedics,5,6,1.5,Low
+Shankar Super Specialty Hospital,12.8752786,77.5379153,Multispecialty,13,11,5.8,Low
+Apollo Hospital Seshadripuram,12.9882344,77.5722942,Multispecialty,28,8,7.1,Medium
+Fortis Hospital Rajajinagar,13.0021399,77.5491058,Multispecialty,5,9,4.3,High
+Kangaroo Care - Women and Children Hospital,12.9742135,77.5422942,Women & Children,25,14,7.7,High
+Trinity Central Hospital,12.9888708,77.5736171,Multispecialty,14,7,3.7,High
+Manipal Hospital Yeshwanthpur,13.0140851,77.5560449,Multispecialty,7,9,1.2,High
+Ramaiah Memorial Hospital,13.0281563,77.5698782,Multispecialty,16,5,7.1,Low
+Manipal Hospitals Jayanagar,12.9171288,77.591795,Multispecialty,24,3,7.1,High
+"Fortis Hospital, Bannerghatta Road",12.894822,77.5986197,Multispecialty,19,3,6.1,Medium
+"Trinity Hospital and Heart Foundation, Bengaluru",12.9435495,77.5793006,Cardiology,13,3,7.0,High
+"Fortis Hospital Rajajinagar, Bangalore",13.0021399,77.5491058,Multispecialty,30,12,4.2,High
+Fortis Hospital Cunningham Road,12.9882166,77.5943056,Multispecialty,21,15,0.6,High
+Manipal Hospital Millers Road,12.9883379,77.5919754,Multispecialty,11,14,1.1,High
+"SPARSH Hospital, Infantry Road",12.9832825,77.59475,Orthopedics,22,12,7.4,Low
+Manipal Hospital Hebbal,13.0509374,77.5939248,Multispecialty,9,8,5.2,Medium
+The Bangalore Hospital,12.9377405,77.5804336,Multispecialty,21,14,7.2,Medium
+Aster CMI Hospital,13.054497,77.5915659,Multispecialty,23,8,3.2,Medium
+Manipal Hospital Whitefield,12.9880554,77.7287744,Multispecialty,25,10,7.4,Medium
+SRV Hospitals - Bengaluru,12.9492723,77.5977213,Multispecialty,20,13,7.9,Medium
+Apollo Spectra Hospitals,12.9338741,77.620214,Multispecialty,6,13,0.8,Low
+Apollo Hospitals Bannerghatta,12.8963273,77.5981892,Multispecialty,22,14,9.3,Medium
+LIFE CARE HOSPITAL- LCH®,12.9193552,77.6129992,Emergency Services,9,6,9.2,High
+Apollo Speciality Hospital Jayanagar,12.9365087,77.5843701,Multispecialty,30,9,7.8,High
+Manipal Hospital Varthur Road,12.9581606,77.7454033,Multispecialty,5,3,6.2,Medium
