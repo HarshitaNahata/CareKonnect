@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3b42d0e1a6fc8fe6f18bdb7db078fe8a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3b42d0e1a6fc8fe6f18bdb7db078fe8a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3b42d0e1a6fc8fe6f18bdb7db078fe8a = L.map(
+                "map_3b42d0e1a6fc8fe6f18bdb7db078fe8a",
+                {
+                    center: [12.9716, 77.5946],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30667c76a990bdf67e77deac1bbf75ef = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_30667c76a990bdf67e77deac1bbf75ef.addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            var polygon_56bcbd1120929da4ad7633e3e97a3cba = L.polygon(
+                [[12.96, 77.56], [12.96, 77.62], [13.0, 77.62], [13.0, 77.56]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_56bcbd1120929da4ad7633e3e97a3cba.bindTooltip(
+                `<div>
+                     Central Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_c2e959dc85883614f248d2e825752aca = L.polygon(
+                [[13.0, 77.56], [13.0, 77.62], [13.05, 77.62], [13.05, 77.56]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_c2e959dc85883614f248d2e825752aca.bindTooltip(
+                `<div>
+                     North Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_dac592d0444c9cf93819ee12d5a1df78 = L.polygon(
+                [[12.9, 77.56], [12.9, 77.62], [12.96, 77.62], [12.96, 77.56]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_dac592d0444c9cf93819ee12d5a1df78.bindTooltip(
+                `<div>
+                     South Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9cc0ca48dd1484dc84ab6ee3f428ad1a = L.polygon(
+                [[12.96, 77.62], [12.96, 77.78], [13.05, 77.78], [13.05, 77.62]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_9cc0ca48dd1484dc84ab6ee3f428ad1a.bindTooltip(
+                `<div>
+                     East Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_20c3a34015a793820e1c2f5abc30f8a1 = L.polygon(
+                [[12.96, 77.4], [12.96, 77.56], [13.05, 77.56], [13.05, 77.4]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_20c3a34015a793820e1c2f5abc30f8a1.bindTooltip(
+                `<div>
+                     West Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_980269d08ac4c39a5f8482624cb36f5c = L.polygon(
+                [[13.0, 77.62], [13.0, 77.78], [13.05, 77.78], [13.05, 77.62]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_980269d08ac4c39a5f8482624cb36f5c.bindTooltip(
+                `<div>
+                     Northeast Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_81beb2527b1ee9ffa26fd8328e6dd4cd = L.polygon(
+                [[12.9, 77.62], [12.9, 77.78], [12.96, 77.78], [12.96, 77.62]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cadetblue", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_81beb2527b1ee9ffa26fd8328e6dd4cd.bindTooltip(
+                `<div>
+                     Southeast Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8e3abc466436091d5b0a4db27808d54e = L.polygon(
+                [[12.9, 77.4], [12.9, 77.56], [12.96, 77.56], [12.96, 77.4]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_8e3abc466436091d5b0a4db27808d54e.bindTooltip(
+                `<div>
+                     Southwest Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_84f00513c2ce7f66792a2e747c4783a9 = L.polygon(
+                [[12.8, 77.3], [12.8, 77.9], [13.15, 77.9], [13.15, 77.3]],
+                {"bubblingMouseEvents": true, "color": "lightgray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightgray", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+        
+    
+            polygon_84f00513c2ce7f66792a2e747c4783a9.bindTooltip(
+                `<div>
+                     Outer Bangalore
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_e9bd4fa25de84b0b1d0154bb782a6265_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_30667c76a990bdf67e77deac1bbf75ef,
+                },
+                overlays :  {
+                },
+            };
+            let layer_control_e9bd4fa25de84b0b1d0154bb782a6265 = L.control.layers(
+                layer_control_e9bd4fa25de84b0b1d0154bb782a6265_layers.base_layers,
+                layer_control_e9bd4fa25de84b0b1d0154bb782a6265_layers.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_3b42d0e1a6fc8fe6f18bdb7db078fe8a);
+
+        
+</script>
+</html>
